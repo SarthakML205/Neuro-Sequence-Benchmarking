@@ -1,0 +1,24 @@
+[12:33:41] [INFO] gru – Device: cpu
+[12:33:41] [INFO] experiments.utils – Loading Phase 1 artefacts from cache: D:\Neuro-Sequence-Benchmarking\outputs\phase1_cache.pkl
+[12:33:43] [INFO] src.preprocessing – spaCy model 'en_core_web_sm' loaded successfully.
+[12:33:46] [INFO] experiments.utils – Cache loaded  –  train: 40000 | val: 5000 | test: 5000 | vocab: 10000
+[12:33:46] [INFO] gru – Vocab size : 10000
+[12:33:46] [INFO] gru – Config  →  hidden_dim=256  dropout=0.5  lr=1e-03  optimizer=adam
+[12:33:49] [INFO] gru – Training for 10 epochs …
+[13:07:22] [INFO] gru –   Epoch  1/10  train_loss=0.5871  train_f1=0.6753  |  val_loss=0.3732  val_acc=0.8500  val_f1=0.8471
+[13:07:22] [INFO] gru –   ✔ Best checkpoint saved (val_f1=0.8471)
+[13:21:09] [INFO] gru –   Epoch  2/10  train_loss=0.3111  train_f1=0.8742  |  val_loss=0.3406  val_acc=0.8526  val_f1=0.8677
+[13:21:09] [INFO] gru –   ✔ Best checkpoint saved (val_f1=0.8677)
+[13:34:21] [INFO] gru –   Epoch  3/10  train_loss=0.2292  train_f1=0.9110  |  val_loss=0.2841  val_acc=0.8804  val_f1=0.8846
+[13:34:21] [INFO] gru –   ✔ Best checkpoint saved (val_f1=0.8846)
+[13:47:23] [INFO] gru –   Epoch  4/10  train_loss=0.1827  train_f1=0.9319  |  val_loss=0.3035  val_acc=0.8846  val_f1=0.8892
+[13:47:23] [INFO] gru –   ✔ Best checkpoint saved (val_f1=0.8892)
+[14:00:30] [INFO] gru –   Epoch  5/10  train_loss=0.1421  train_f1=0.9493  |  val_loss=0.3544  val_acc=0.8794  val_f1=0.8827
+[14:13:34] [INFO] gru –   Epoch  6/10  train_loss=0.1191  train_f1=0.9571  |  val_loss=0.3500  val_acc=0.8768  val_f1=0.8746
+[14:27:02] [INFO] gru –   Epoch  7/10  train_loss=0.0937  train_f1=0.9671  |  val_loss=0.3599  val_acc=0.8770  val_f1=0.8758
+[14:41:13] [INFO] gru –   Epoch  8/10  train_loss=0.0797  train_f1=0.9728  |  val_loss=0.4441  val_acc=0.8736  val_f1=0.8720
+[14:54:51] [INFO] gru –   Epoch  9/10  train_loss=0.0688  train_f1=0.9754  |  val_loss=0.4419  val_acc=0.8740  val_f1=0.8755
+[15:08:00] [INFO] gru –   Epoch 10/10  train_loss=0.0595  train_f1=0.9793  |  val_loss=0.5572  val_acc=0.8684  val_f1=0.8677
+[15:08:00] [INFO] gru – 
+Loading best checkpoint for test evaluation …
+[15:08:24] [INFO] gru – Test results  →  loss=0.3191  acc=0.8762  f1=0.8803

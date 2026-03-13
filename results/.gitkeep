@@ -1,0 +1,7 @@
+# results/.gitkeep
+# Subdirectories (rnn/, lstm/, gru/, bilstm/) and their artefacts are
+# created at runtime by trainer.hyperparameter_search().
+# Generated files per architecture:
+#   best_model.pth      – best checkpoint (state dict + metadata)
+#   tuning_results.csv  – full grid search results sorted by avg_val_f1
+#   experiment.log      – timestamped training log
