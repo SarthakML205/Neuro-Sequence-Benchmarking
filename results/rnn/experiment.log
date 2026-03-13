@@ -1,0 +1,24 @@
+[15:11:17] [INFO] rnn – Device: cpu
+[15:11:17] [INFO] experiments.utils – Loading Phase 1 artefacts from cache: D:\Neuro-Sequence-Benchmarking\outputs\phase1_cache.pkl
+[15:11:19] [INFO] src.preprocessing – spaCy model 'en_core_web_sm' loaded successfully.
+[15:11:21] [INFO] experiments.utils – Cache loaded  –  train: 40000 | val: 5000 | test: 5000 | vocab: 10000
+[15:11:21] [INFO] rnn – Vocab size : 10000
+[15:11:21] [INFO] rnn – Config  →  hidden_dim=128  dropout=0.3  lr=1e-04  optimizer=adam
+[15:11:23] [INFO] rnn – Training for 10 epochs …
+[15:14:18] [INFO] rnn –   Epoch  1/10  train_loss=0.5296  train_f1=0.7387  |  val_loss=0.3763  val_acc=0.8460  val_f1=0.8549
+[15:14:18] [INFO] rnn –   ✔ Best checkpoint saved (val_f1=0.8549)
+[15:17:18] [INFO] rnn –   Epoch  2/10  train_loss=0.3792  train_f1=0.8490  |  val_loss=0.3837  val_acc=0.8382  val_f1=0.8211
+[15:20:17] [INFO] rnn –   Epoch  3/10  train_loss=0.3315  train_f1=0.8717  |  val_loss=0.3364  val_acc=0.8602  val_f1=0.8539
+[15:23:28] [INFO] rnn –   Epoch  4/10  train_loss=0.3041  train_f1=0.8845  |  val_loss=0.3404  val_acc=0.8702  val_f1=0.8687
+[15:23:28] [INFO] rnn –   ✔ Best checkpoint saved (val_f1=0.8687)
+[15:26:28] [INFO] rnn –   Epoch  5/10  train_loss=0.2730  train_f1=0.8987  |  val_loss=0.3304  val_acc=0.8664  val_f1=0.8714
+[15:26:28] [INFO] rnn –   ✔ Best checkpoint saved (val_f1=0.8714)
+[15:29:20] [INFO] rnn –   Epoch  6/10  train_loss=0.2528  train_f1=0.9077  |  val_loss=0.3470  val_acc=0.8666  val_f1=0.8616
+[15:31:04] [INFO] rnn –   Epoch  7/10  train_loss=0.2347  train_f1=0.9163  |  val_loss=0.3596  val_acc=0.8672  val_f1=0.8660
+[15:32:38] [INFO] rnn –   Epoch  8/10  train_loss=0.2096  train_f1=0.9275  |  val_loss=0.3692  val_acc=0.8690  val_f1=0.8730
+[15:32:38] [INFO] rnn –   ✔ Best checkpoint saved (val_f1=0.8730)
+[15:34:13] [INFO] rnn –   Epoch  9/10  train_loss=0.1804  train_f1=0.9377  |  val_loss=0.4160  val_acc=0.8664  val_f1=0.8670
+[15:35:58] [INFO] rnn –   Epoch 10/10  train_loss=0.1549  train_f1=0.9486  |  val_loss=0.5043  val_acc=0.8654  val_f1=0.8685
+[15:35:58] [INFO] rnn – 
+Loading best checkpoint for test evaluation …
+[15:36:00] [INFO] rnn – Test results  →  loss=0.3809  acc=0.8642  f1=0.8668

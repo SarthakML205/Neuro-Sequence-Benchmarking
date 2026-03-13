@@ -1,0 +1,5 @@
+venv/
+src/__pycache__/
+*.pycdataset/IMDB Dataset.csv
+outputs/phase1_cache.pkl
+outputs/*.pkl

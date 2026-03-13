@@ -1,0 +1,23 @@
+[12:21:09] [INFO] bilstm – Device: cpu
+[12:21:09] [INFO] experiments.utils – Loading Phase 1 artefacts from cache: D:\Neuro-Sequence-Benchmarking\outputs\phase1_cache.pkl
+[12:21:12] [INFO] src.preprocessing – spaCy model 'en_core_web_sm' loaded successfully.
+[12:21:14] [INFO] experiments.utils – Cache loaded  –  train: 40000 | val: 5000 | test: 5000 | vocab: 10000
+[12:21:14] [INFO] bilstm – Vocab size : 10000
+[12:21:14] [INFO] bilstm – Hyperparameters → hidden_dim=256  dropout=0.5  lr=0.0001  optimizer=adam
+[12:21:16] [INFO] bilstm – Training for 10 epochs …
+[12:38:33] [INFO] bilstm –   Epoch  1/10  tr_loss=0.5183  tr_f1=0.7329  |  vl_loss=0.3431  vl_acc=0.8560  vl_f1=0.8611
+[12:38:33] [INFO] bilstm –   ✔ Best checkpoint saved (val_f1=0.8611)
+[12:58:47] [INFO] bilstm –   Epoch  2/10  tr_loss=0.3510  tr_f1=0.8556  |  vl_loss=0.4897  vl_acc=0.7916  vl_f1=0.8243
+[13:18:33] [INFO] bilstm –   Epoch  3/10  tr_loss=0.2916  tr_f1=0.8814  |  vl_loss=0.3706  vl_acc=0.8494  vl_f1=0.8632
+[13:18:33] [INFO] bilstm –   ✔ Best checkpoint saved (val_f1=0.8632)
+[13:37:14] [INFO] bilstm –   Epoch  4/10  tr_loss=0.2652  tr_f1=0.8980  |  vl_loss=0.3106  vl_acc=0.8700  vl_f1=0.8748
+[13:37:14] [INFO] bilstm –   ✔ Best checkpoint saved (val_f1=0.8748)
+[13:55:52] [INFO] bilstm –   Epoch  5/10  tr_loss=0.2447  tr_f1=0.9056  |  vl_loss=0.3079  vl_acc=0.8732  vl_f1=0.8756
+[13:55:52] [INFO] bilstm –   ✔ Best checkpoint saved (val_f1=0.8756)
+[14:14:25] [INFO] bilstm –   Epoch  6/10  tr_loss=0.2299  tr_f1=0.9103  |  vl_loss=0.3338  vl_acc=0.8708  vl_f1=0.8699
+[14:33:31] [INFO] bilstm –   Epoch  7/10  tr_loss=0.2099  tr_f1=0.9200  |  vl_loss=0.3404  vl_acc=0.8724  vl_f1=0.8717
+[14:53:19] [INFO] bilstm –   Epoch  8/10  tr_loss=0.2009  tr_f1=0.9235  |  vl_loss=0.3404  vl_acc=0.8604  vl_f1=0.8678
+[15:11:19] [INFO] bilstm –   Epoch  9/10  tr_loss=0.1842  tr_f1=0.9331  |  vl_loss=0.4115  vl_acc=0.8494  vl_f1=0.8624
+[15:29:09] [INFO] bilstm –   Epoch 10/10  tr_loss=0.1733  tr_f1=0.9364  |  vl_loss=0.3765  vl_acc=0.8632  vl_f1=0.8577
+[15:29:44] [INFO] bilstm – 
+BILSTM FINAL TEST  →  loss=0.3071  acc=0.8700  f1=0.8704

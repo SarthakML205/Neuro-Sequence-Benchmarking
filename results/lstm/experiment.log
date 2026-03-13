@@ -1,0 +1,24 @@
+[15:40:25] [INFO] lstm – Device: cpu
+[15:40:25] [INFO] experiments.utils – Loading Phase 1 artefacts from cache: D:\Neuro-Sequence-Benchmarking\outputs\phase1_cache.pkl
+[15:40:26] [INFO] src.preprocessing – spaCy model 'en_core_web_sm' loaded successfully.
+[15:40:27] [INFO] experiments.utils – Cache loaded  –  train: 40000 | val: 5000 | test: 5000 | vocab: 10000
+[15:40:27] [INFO] lstm – Vocab size : 10000
+[15:40:27] [INFO] lstm – Config  →  hidden_dim=128  dropout=0.5  lr=1e-04  optimizer=adam
+[15:40:28] [INFO] lstm – Training for 10 epochs …
+[15:42:25] [INFO] lstm –   Epoch  1/10  train_loss=0.5158  train_f1=0.7456  |  val_loss=0.3732  val_acc=0.8398  val_f1=0.8482
+[15:42:25] [INFO] lstm –   ✔ Best checkpoint saved (val_f1=0.8482)
+[15:44:20] [INFO] lstm –   Epoch  2/10  train_loss=0.3642  train_f1=0.8512  |  val_loss=0.3669  val_acc=0.8346  val_f1=0.8517
+[15:44:20] [INFO] lstm –   ✔ Best checkpoint saved (val_f1=0.8517)
+[15:46:15] [INFO] lstm –   Epoch  3/10  train_loss=0.3196  train_f1=0.8738  |  val_loss=0.3279  val_acc=0.8636  val_f1=0.8687
+[15:46:15] [INFO] lstm –   ✔ Best checkpoint saved (val_f1=0.8687)
+[15:48:13] [INFO] lstm –   Epoch  4/10  train_loss=0.2836  train_f1=0.8888  |  val_loss=0.3233  val_acc=0.8664  val_f1=0.8685
+[15:50:15] [INFO] lstm –   Epoch  5/10  train_loss=0.2593  train_f1=0.8984  |  val_loss=0.3291  val_acc=0.8622  val_f1=0.8558
+[15:52:25] [INFO] lstm –   Epoch  6/10  train_loss=0.2426  train_f1=0.9060  |  val_loss=0.3237  val_acc=0.8652  val_f1=0.8716
+[15:52:25] [INFO] lstm –   ✔ Best checkpoint saved (val_f1=0.8716)
+[15:54:28] [INFO] lstm –   Epoch  7/10  train_loss=0.2309  train_f1=0.9124  |  val_loss=0.3831  val_acc=0.8648  val_f1=0.8708
+[15:56:31] [INFO] lstm –   Epoch  8/10  train_loss=0.2169  train_f1=0.9195  |  val_loss=0.3304  val_acc=0.8712  val_f1=0.8705
+[15:58:33] [INFO] lstm –   Epoch  9/10  train_loss=0.2025  train_f1=0.9248  |  val_loss=0.3206  val_acc=0.8640  val_f1=0.8607
+[16:00:55] [INFO] lstm –   Epoch 10/10  train_loss=0.1909  train_f1=0.9305  |  val_loss=0.4095  val_acc=0.8660  val_f1=0.8703
+[16:00:55] [INFO] lstm – 
+Loading best checkpoint for test evaluation …
+[16:00:58] [INFO] lstm – Test results  →  loss=0.3251  acc=0.8718  f1=0.8762
